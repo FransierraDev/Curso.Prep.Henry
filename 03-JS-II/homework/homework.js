@@ -1,5 +1,5 @@
 // No cambies los nombres de las funciones.
-//Cambiar commit, segundo intento
+//Cambiar commit, segundo intento, third try
 function obtenerMayor(x, y) {
   // "x" e "y" son números enteros (int).
   // Devuelve el número más grande
