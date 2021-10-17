@@ -1,18 +1,44 @@
+body{
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/5/58/Taj-mahal-free-download-HD-images_%281%29.jpg");
+}
+
 h1 {
+    text-align: center;
     color: aquamarine;
+    /*margin-left: auto;
+    margin-right: auto;*/
 }
 img {
     width: 400px;
 }
-#thirdDiv {        
+
+.divClass{
+    display: flex;    
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     width: 500px;
-    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-bottom: 20px;
+    
+}
+
+#thirdDiv {     
+    display: flex;   
+    flex-direction: row;
+    width: 500px;
+    height: 800px;
     background-color: coral;
     padding: 50px;
     border-style: dotted;
     border-color: darkgreen;    
+    margin-left: auto;
+    margin-right: auto;
+    
 }
 #spanId {
     font-size: 18px;
-    margin: 50px;
+    /*margin: 50px;*/
 }
