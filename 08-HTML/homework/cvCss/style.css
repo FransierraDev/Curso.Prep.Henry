@@ -1,0 +1,149 @@
+body{
+  background: linear-gradient(90deg, rgba(7,8,8,0.45451684091605393) 0%, rgba(253,255,255,0.6982143199076505) 32%, rgba(206,208,208,0.8046568969384629) 67%);
+  margin: 5%;
+  font-family: sans-serif;  
+}
+
+#divEncabezado{  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: teal;  
+  color: white;
+  border-top-left-radius: 90%;
+  padding-top: 2%;
+  /*border-top-right-radius: 20%;*/
+  
+}
+#divContainer{     
+  display: flex;
+  flex-direction:row;
+  /*background-color: transparent;*/
+  margin:0;  
+  border-style:dotted;
+  border-color: black;  
+}
+
+
+#divLateralIzq{
+  /*background:darkseagreen;*/
+  width: 30%;    
+  height: 100%;  
+  padding-left: 3%;
+  padding-right: 3%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: azure;
+}
+
+#divImg{
+  display: flex;  
+  justify-content: center;
+}
+
+#divImg img{
+  margin-top: -45px;
+  margin-bottom: 0px;
+  height: 180px;
+  width: 180px;  
+  border-radius: 50%;
+}
+
+#divCurriculum{    
+  width: 100%;    
+  height: 100%;        
+  min-height: 125vh;  
+  background-color: azure;
+}
+
+/*Configuración de cajas de encabezados y contenidos de perfil*/
+
+.clsEncabezado{
+  background-color:teal;
+  padding: 1%;  
+  margin-top: 10%;
+  margin-bottom: 0%;
+  color: white;
+  display: flex;
+  border-top-left-radius: 70%;
+  /*border-top-right-radius: 50%;*/
+  Justify-content: center;
+  
+}
+
+.clsContenido{  
+  margin-top: 0%;  
+  /*border-style:dotted;
+  border-color: black;
+  border-bottom-right-radius: 50%;
+  background-color:honeydew;*/
+}
+
+
+/*Configuración común para todos los elementos tipo li*/
+li{ 
+  list-style-type: none; 
+  padding-left: 2rem;
+  padding-bottom: 1rem;
+  background-position: 0 0;
+  background-size: 1.2rem 1.2rem;
+  background-repeat: no-repeat;
+  margin-left: -20pt;
+}
+
+/*Elementos de lista: Información de contacto*/
+#cel{
+  background-image: url("https://static-00.iconduck.com/assets.00/mobile-phone-with-arrow-emoji-512x491-vk4sjz16.png");  
+}
+#in{  
+  background-image: url("https://static-00.iconduck.com/assets.00/linkedin-icon-512x512-b5owxava.png");
+}
+  
+#email{  
+  background-image: url("https://static-00.iconduck.com/assets.00/email-icon-512x512-ieh8zm9f.png");  
+}
+
+/*Elementos de lista: Programación */
+  
+#vb6{    
+    background-image: url("https://static-00.iconduck.com/assets.00/roman-numeral-6-icon-512x465-ewpgg7gp.png");    
+}
+  
+#Python{    
+  background-image: url("https://static-00.iconduck.com/assets.00/python-icon-512x509-pyuo2h5v.png");
+}
+
+#SQL{
+  background-image: url("https://static-00.iconduck.com/assets.00/database-sql-icon-459x512-24auexih.png");    
+}
+
+#dotNet{
+  background-image: url("https://static-00.iconduck.com/assets.00/dot-net-icon-512x190-aexliivs.png");
+  background-size: 1rem 1rem;
+}
+#Php{
+  background-image: url("https://static-00.iconduck.com/assets.00/php-icon-512x270-ulht63ak.png");    
+}
+
+#js{        
+  background-image: url("https://static-00.iconduck.com/assets.00/javascript-icon-512x512-34hjwczx.png");    
+}
+
+/*Curriculum*/
+#divGEducation{
+  display: flex;    
+  /*flex-direction: column;*/
+  align-items: left;  
+}
+.clsEducation{
+  display: flex;
+  /*border-style:dotted;
+  border-color: black;*/
+  width: 33%;
+  display: flex;
+  justify-content:space-evenly;
+}
+
+
+
