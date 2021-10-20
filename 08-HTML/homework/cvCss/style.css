@@ -8,7 +8,8 @@ body{
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: teal;  
+  background-color: #0078d4!important;
+  /*background-color: teal;*/
   color: white;
   border-top-left-radius: 90%;
   padding-top: 2%;
@@ -19,7 +20,7 @@ body{
   display: flex;
   flex-direction:row;
   /*background-color: transparent;*/
-  margin:0;  
+  margin-bottom: 0%;  
   border-style:dotted;
   border-color: black;  
 }
@@ -31,7 +32,7 @@ body{
   height: 100%;  
   padding-left: 3%;
   padding-right: 3%;
-  min-height: 125vh;
+  /*min-height: 125vh;*/
   display: flex;
   flex-direction: column;
   background-color: azure;
@@ -60,7 +61,8 @@ body{
 /*Configuración de cajas de encabezados y contenidos de perfil*/
 
 .clsEncabezado{
-  background-color:teal;
+  background-color: #0078d4!important;
+  /*background-color:teal;*/
   padding: 1%;  
   margin-top: 10%;
   margin-bottom: 0%;
@@ -130,20 +132,43 @@ li{
   background-image: url("https://static-00.iconduck.com/assets.00/javascript-icon-512x512-34hjwczx.png");    
 }
 
+
+#divImgHeader{
+  display: flex;
+  justify-content: center;
+}
+#divImgHeader img{    
+  margin-top: 5%;
+  width: 50%;
+  height: 180px;
+}
+
 /*Curriculum*/
 #divGEducation{
   display: flex;    
   /*flex-direction: column;*/
   align-items: left;  
 }
-.clsEducation{
+
+.clsCV{
   display: flex;
   /*border-style:dotted;
   border-color: black;*/
   width: 33%;
-  display: flex;
-  justify-content:space-evenly;
+  display: flex;  
 }
 
+#divGXPWork{
+  display: flex;    
+  /*flex-direction: column;*/
+  align-items: left;  
+}
 
-
+#divFooter{
+  background-color: #0078d4!important;
+  color: ghostwhite;  
+  display: flex;
+  margin-top: 0px;  
+  font-family: whitney ssm a,whitney ssm b,lucida grande,lucida sans,Verdana,Helvetica,Arial,sans-serif;
+  padding-left: 4%;
+}
